@@ -103,7 +103,10 @@ int main(){
 		    	    cout=cout+1;
 			    }
 			}
-	        printf("so phan tu giong %d la: %d",x,cout);
+	        if(!cout){
+	            printf("khong co phan tu nay trong mang\n");
+			}
+			printf("so phan tu giong %d la: %d",x,cout);
             printf("\n");
 		    break;
 		int val,pos;
