@@ -112,9 +112,11 @@ int main(){
 			}           
 			printf(" \n");
 			break;
-		int sum_n,max_sum,max_n=-1;
+		int sum_n,max_sum,max_n;
 		case 7:
-		    for(i=0;i<n;i++){
+		    max_n=0;
+		    max_sum=0;
+			for(i=0;i<n;i++){
 				sum_n=0;
 				for(j=0;j<m;j++){
 					sum_n=sum_n+a[i][j];
@@ -138,4 +140,4 @@ int main(){
     }
     }while(choice==1||choice==2||choice==3||choice==4||choice==5||choice==6||choice==7);
 	return 0;
-	}
+}
